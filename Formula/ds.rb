@@ -1,13 +1,13 @@
 class Ds < Formula
-    desc "Convert defaults or any plist into Shell Scripts"
-    homepage "https://github.com/aerobounce/defaults.sh"
-    url "https://github.com/aerobounce/defaults.sh/archive/2020.04.10.zip"
-    sha256 "d90489973e0c3277077cbe12b9ee050ed132beaaf80adde37d541985a4dbed2c"
-    head "https://github.com/aerobounce/defaults.sh.git"
+  desc "Convert defaults or any plist into Shell Scripts"
+  homepage "https://github.com/aerobounce/defaults.sh"
+  url "https://github.com/aerobounce/defaults.sh/archive/2020.04.12.zip"
+  sha256 "1b95cdcd635f0ee82edafcc144ea5afdf7102052ab1a1e78a6a9c6bf0f8a7649"
+  head "https://github.com/aerobounce/defaults.sh.git"
 
-    bottle :unneeded
+  bottle :unneeded
 
-    def install
-        bin.install "ds"
-    end
+  def install
+    bin.install "ds"
+  end
 end
